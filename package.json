@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Mohit6294/ReactWeb/issues"
   },
-  "homepage": "https://github.com/Mohit6294/ReactWeb#readme"
+  "homepage": "https://github.com/Mohit6294/ReactWeb#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
 }
