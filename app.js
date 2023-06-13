@@ -1,22 +1,14 @@
-/*
-  <div class="parent">
-    <div class="first_child">
-      <h1>First Child</h1>
-    </div>
-    <div class="second_child">
-      <h1>Second Child</h1>
-    </div>
-  </div>
-*/
 
+import React from "react";
+import  ReactDOM  from "react-dom/client";
 
 
 const heading = React.createElement('div',{
-  class:'parent'
+  className:'parent'
 },[React.createElement('div',{
-  class:"first_child"
+  className:"first_child"
 },React.createElement('h1',{},"First_child")),React.createElement('div',{
-  class:'second_child'
+  className:"second_child"
 },React.createElement('h1',{},"Second Child"))]);
 
     const root = ReactDOM.createRoot(document.getElementById('root'));
